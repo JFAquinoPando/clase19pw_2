@@ -1,6 +1,6 @@
 const datos = document.getElementById("datos");
 
-const url = "http://localhost/pw-idt-19/personas.php";
+const url = "./personas.php";
 let fila = ""
 fetch(url)
 .then(datos => datos.json())
