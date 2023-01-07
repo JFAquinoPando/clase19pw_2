@@ -1,7 +1,7 @@
 const datos = document.getElementById("datos");
 
 const url = "./personas.php";
-let fila = ""
+let fila = "";
 fetch(url)
 .then(datos => datos.json())
 .then(
